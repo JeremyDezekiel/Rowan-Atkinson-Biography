@@ -1,26 +1,19 @@
+
+html {
+    background-color: #d9d9d9;
+    margin: 0px 20px;
+}
+
 .title {
+    border-top: 1px solid black;
     text-align: center;
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0px 
 }
 
-.pp-RA {
-    width: 150px;
-
-}
-
-.profile-RA {
-    content: "";
-    clear: both ;
-    display: table;
-}
-
-div {
-    border: 3px solid #4CAF50;
-    padding: 5px;
-    text-align: center;
-}
-
-.profile {
-    margin: 0px;
+.title {
+    padding: 20px;
+    border-bottom: 3px solid black;
+    
 }
