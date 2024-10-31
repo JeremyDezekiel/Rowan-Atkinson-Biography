@@ -1,7 +1,17 @@
 
 html {
+    background-color: white;
+    margin: 0px 40%;
+}
+
+body {
     background-color: #d9d9d9;
-    margin: 0px 20px;
+    border: 1px solid black;
+    width: 710px;
+}
+
+.table {
+    margin: 1px 60px;
 }
 
 .title {
