@@ -1,29 +1,134 @@
 
 html {
     background-color: white;
-    margin: 0px 40%;
 }
 
 body {
     background-color: #d9d9d9;
-    border: 1px solid black;
-    width: 710px;
+}
+
+.main {
+    width: px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+
+.title1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 2px;
+
 }
 
 .table {
-    margin: 1px 60px;
+    display: flex;
+    justify-content: center;
 }
 
-.title {
-    border-top: 1px solid black;
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 0px 
+.h2 {
+    font-family: times 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 25px;
+    font-style: italic;
 }
 
-.title {
-    padding: 20px;
-    border-bottom: 3px solid black;
-    
+.crimson {
+    font-family: "Crimson Pro", serif;
+    text-align: justify;
+    font-size: 17px;
+
 }
+
+.who {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 450px 280px;
+    justify-content: center;
+    grid-gap: 50px;
+}
+
+.left {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 450px 280px;
+    justify-content: center;
+    grid-gap: 50px;
+}
+
+.right {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 280px 450px;
+    justify-content: center;
+    grid-gap: 50px;
+}
+
+.article-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E3DDD5;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dp {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 20px 400px;
+   margin: 0px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #D9D9D9;
+    margin-bottom: 5px;
+}
+
+.font-button a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    padding: 0px 108px;
+    border: 1px solid black;
+}
+
+display: grid;
+grid-template-columns: repeat(3,minmax(0,1fr));
+align-items: center;
+justify-content: space-between;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 1500px;
+margin-right: auto;
+margin-left: auto;
+padding-right: 15px;
+padding-left: 15px;
+position: relative;
