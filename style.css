@@ -51,16 +51,6 @@ body {
     font-style: normal;
 }
 
-.title1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    margin-top: 2px;
-}
-
 .left {
     margin-top: 50px;
     display: grid;
@@ -95,15 +85,6 @@ body {
     margin-bottom: 5px;
 }
 
-.dp {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: aqua;
-    padding: 20px 400px;
-    margin: 0px;
-}
-
 .test {
     display: flex;
     flex-direction: row;
@@ -128,13 +109,6 @@ body {
     padding-bottom: 10px;
 }
 
-.header-test {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
 .table-header {
     border-top: 1px solid black;
     border-bottom: 5px solid black;
@@ -152,12 +126,6 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-top: 35px;
-}
-
-.table-achivement {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .td-achievement {
@@ -178,12 +146,6 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 30px;
-}
-
-.cek {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .line-footer-bot {
