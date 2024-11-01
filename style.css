@@ -1,5 +1,5 @@
 html {
-    background-color: white;
+    background-color: #d9d9d9;
 }
 
 body {
@@ -20,7 +20,35 @@ body {
     font-family: "Crimson Pro", serif;
     font-optical-sizing: auto;
     font-weight: 500;
+    font-style: normal;
+}
+
+.dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contrail-one-regular {
+    font-family: "Contrail One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.times-new-roman {
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+}
+
+.times-new-roman-classic {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .title1 {
@@ -52,7 +80,7 @@ body {
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: end;
     background-color: #D9D9D9;
     text-decoration: none;
     margin-bottom: 0px;
@@ -85,16 +113,19 @@ body {
     height: 100px;
 }
 
-.nav-test {
+.nav-table {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    font-size: 25px;
-    padding: 0 50px;
-    margin: 0 260px;
-    padding-bottom: 10px;
+}
+
+.table-nav {
     border-bottom: 1px solid black;
+    width: 810px;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
 }
 
 .header-test {
@@ -120,5 +151,44 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 35px;
+}
+
+.table-achivement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.td-achievement {
+    width: 400px;
+    height: 50px;
+}
+
+.line-footer {
+    border-top: 10px solid black;
+    border-bottom: 3px solid black;
+    width: 812px;
+    height: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.cek {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.line-footer-bot {
+    border-bottom: 10px solid black;
+    border-top: 3px solid black;
+    width: 812px;
+    height: 20px;
 }
