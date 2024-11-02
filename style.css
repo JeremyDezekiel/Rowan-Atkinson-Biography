@@ -134,8 +134,8 @@ body {
 }
 
 .line-footer {
-    border-top: 10px solid black;
-    border-bottom: 3px solid black;
+    border-top: 10px solid #404040;
+    border-bottom: 3px solid #404040;
     width: 812px;
     height: 20px;
 }
@@ -149,8 +149,8 @@ body {
 }
 
 .line-footer-bot {
-    border-bottom: 10px solid black;
-    border-top: 3px solid black;
+    border-bottom: 10px solid #404040;
+    border-top: 3px solid #404040;
     width: 812px;
     height: 20px;
 }
